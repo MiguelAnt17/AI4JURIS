@@ -1,0 +1,515 @@
+{
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.402504006917236,
+      "train_accuracy": 0.2910428158655109,
+      "train_macro_f1": 0.16460629386306325,
+      "train_micro_f1": 0.2910428158655109,
+      "train_macro_f1_minority": 0.0720095985630528,
+      "train_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.08626198083067092,
+        "CONFIRMADA": 0.44542285819115757,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.17246596066565809,
+        "CONFIRMA\u00c7\u00c3O": 0.06944444444444445,
+        "IMPROCEDENTE": 0.4338106880894167,
+        "N\u00c3O PROVIDO": 0.12542759407069556,
+        "PARCIALMENTE PROCEDENTE": 0.0,
+        "PROCEDENTE": 0.09272727272727273,
+        "REVOGADA": 0.1506186121570737,
+        "REVOGADA EM PARTE": 0.06988352745424292
+      },
+      "val_loss": 2.3191128232347684,
+      "val_accuracy": 0.2637795275590551,
+      "val_macro_f1": 0.21418576137646855,
+      "val_micro_f1": 0.2637795275590551,
+      "val_macro_f1_minority": 0.19140928169794882,
+      "val_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.18340611353711792,
+        "CONFIRMADA": 0.3576388888888889,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.3373493975903614,
+        "CONFIRMA\u00c7\u00c3O": 0.05555555555555555,
+        "IMPROCEDENTE": 0.12560386473429952,
+        "N\u00c3O PROVIDO": 0.37777777777777777,
+        "PARCIALMENTE PROCEDENTE": 0.18840579710144928,
+        "PROCEDENTE": 0.16666666666666666,
+        "REVOGADA": 0.31666666666666665,
+        "REVOGADA EM PARTE": 0.03278688524590164
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.1086334853800905,
+      "train_accuracy": 0.33766745468873127,
+      "train_macro_f1": 0.28766029321521047,
+      "train_micro_f1": 0.33766745468873127,
+      "train_macro_f1_minority": 0.24415742669211732,
+      "train_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.21501390176088972,
+        "CONFIRMADA": 0.41513925255891454,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.3950617283950617,
+        "CONFIRMA\u00c7\u00c3O": 0.17651821862348177,
+        "IMPROCEDENTE": 0.47224594363791633,
+        "N\u00c3O PROVIDO": 0.5753646677471637,
+        "PARCIALMENTE PROCEDENTE": 0.0824295010845987,
+        "PROCEDENTE": 0.13126491646778043,
+        "REVOGADA": 0.2259941804073715,
+        "REVOGADA EM PARTE": 0.18757062146892656
+      },
+      "val_loss": 2.1669992478344384,
+      "val_accuracy": 0.34744094488188976,
+      "val_macro_f1": 0.2861056014462283,
+      "val_micro_f1": 0.34744094488188976,
+      "val_macro_f1_minority": 0.24264436679937573,
+      "val_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.23931623931623933,
+        "CONFIRMADA": 0.43902439024390244,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.43478260869565216,
+        "CONFIRMA\u00c7\u00c3O": 0.19004524886877827,
+        "IMPROCEDENTE": 0.4953560371517028,
+        "N\u00c3O PROVIDO": 0.6086956521739131,
+        "PARCIALMENTE PROCEDENTE": 0.10344827586206896,
+        "PROCEDENTE": 0.07058823529411765,
+        "REVOGADA": 0.09195402298850575,
+        "REVOGADA EM PARTE": 0.1878453038674033
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.962480432846967,
+      "train_accuracy": 0.4166009981612819,
+      "train_macro_f1": 0.3818677269030891,
+      "train_micro_f1": 0.4166009981612819,
+      "train_macro_f1_minority": 0.34455028757200784,
+      "train_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.315884476534296,
+        "CONFIRMADA": 0.4759259259259259,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.5622489959839357,
+        "CONFIRMA\u00c7\u00c3O": 0.28286189683860236,
+        "IMPROCEDENTE": 0.5378568473314026,
+        "N\u00c3O PROVIDO": 0.6639411283728537,
+        "PARCIALMENTE PROCEDENTE": 0.209009009009009,
+        "PROCEDENTE": 0.23902439024390243,
+        "REVOGADA": 0.26569797612869744,
+        "REVOGADA EM PARTE": 0.2662266226622662
+      },
+      "val_loss": 2.163145900241972,
+      "val_accuracy": 0.33366141732283466,
+      "val_macro_f1": 0.30613751024593083,
+      "val_micro_f1": 0.33366141732283466,
+      "val_macro_f1_minority": 0.26144991268930295,
+      "val_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.2085889570552147,
+        "CONFIRMADA": 0.3813387423935091,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.5476190476190477,
+        "CONFIRMA\u00c7\u00c3O": 0.22439024390243903,
+        "IMPROCEDENTE": 0.3560606060606061,
+        "N\u00c3O PROVIDO": 0.542713567839196,
+        "PARCIALMENTE PROCEDENTE": 0.04081632653061224,
+        "PROCEDENTE": 0.32085561497326204,
+        "REVOGADA": 0.2975778546712803,
+        "REVOGADA EM PARTE": 0.1414141414141414
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.8173535338782965,
+      "train_accuracy": 0.4655897031783557,
+      "train_macro_f1": 0.4635176787112025,
+      "train_micro_f1": 0.4655897031783557,
+      "train_macro_f1_minority": 0.43735624586097854,
+      "train_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.4340659340659341,
+        "CONFIRMADA": 0.47859065329092243,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.7136563876651982,
+        "CONFIRMA\u00c7\u00c3O": 0.3691275167785235,
+        "IMPROCEDENTE": 0.5366470092670598,
+        "N\u00c3O PROVIDO": 0.7282321899736148,
+        "PARCIALMENTE PROCEDENTE": 0.29931972789115646,
+        "PROCEDENTE": 0.3586206896551724,
+        "REVOGADA": 0.3536643026004728,
+        "REVOGADA EM PARTE": 0.3632523759239704
+      },
+      "val_loss": 2.1853699275827783,
+      "val_accuracy": 0.36220472440944884,
+      "val_macro_f1": 0.32225856728890045,
+      "val_micro_f1": 0.36220472440944884,
+      "val_macro_f1_minority": 0.23495975855130785,
+      "val_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.28125,
+        "CONFIRMADA": 0.39846743295019155,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.6301369863013698,
+        "CONFIRMA\u00c7\u00c3O": 0.22875816993464052,
+        "IMPROCEDENTE": 0.5209580838323353,
+        "N\u00c3O PROVIDO": 0.6333333333333333,
+        "PARCIALMENTE PROCEDENTE": 0.09523809523809523,
+        "PROCEDENTE": 0.2112676056338028,
+        "REVOGADA": 0.22317596566523606,
+        "REVOGADA EM PARTE": 0.0
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.6308571904146372,
+      "train_accuracy": 0.5354609929078015,
+      "train_macro_f1": 0.5577371032715044,
+      "train_micro_f1": 0.5354609929078015,
+      "train_macro_f1_minority": 0.5478129754238602,
+      "train_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.5504087193460491,
+        "CONFIRMADA": 0.5069582504970179,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.8128,
+        "CONFIRMA\u00c7\u00c3O": 0.5054347826086957,
+        "IMPROCEDENTE": 0.5827098919368247,
+        "N\u00c3O PROVIDO": 0.8126801152737753,
+        "PARCIALMENTE PROCEDENTE": 0.44541484716157204,
+        "PROCEDENTE": 0.44340505144995324,
+        "REVOGADA": 0.42780748663101603,
+        "REVOGADA EM PARTE": 0.48975188781014023
+      },
+      "val_loss": 2.2086132424553546,
+      "val_accuracy": 0.3779527559055118,
+      "val_macro_f1": 0.34779867241738244,
+      "val_micro_f1": 0.3779527559055118,
+      "val_macro_f1_minority": 0.3103391634153731,
+      "val_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.1836734693877551,
+        "CONFIRMADA": 0.48014440433212996,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.5789473684210527,
+        "CONFIRMA\u00c7\u00c3O": 0.25301204819277107,
+        "IMPROCEDENTE": 0.44871794871794873,
+        "N\u00c3O PROVIDO": 0.6973684210526315,
+        "PARCIALMENTE PROCEDENTE": 0.15503875968992248,
+        "PROCEDENTE": 0.1984732824427481,
+        "REVOGADA": 0.29213483146067415,
+        "REVOGADA EM PARTE": 0.19047619047619047
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.4754040866714566,
+      "train_accuracy": 0.6146572104018913,
+      "train_macro_f1": 0.6509078023639168,
+      "train_micro_f1": 0.6146572104018913,
+      "train_macro_f1_minority": 0.6533885062397685,
+      "train_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.69140625,
+        "CONFIRMADA": 0.5656465942744324,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.8773109243697479,
+        "CONFIRMA\u00c7\u00c3O": 0.6042471042471043,
+        "IMPROCEDENTE": 0.6344131257888094,
+        "N\u00c3O PROVIDO": 0.8773006134969326,
+        "PARCIALMENTE PROCEDENTE": 0.5898876404494382,
+        "PROCEDENTE": 0.5567703952901598,
+        "REVOGADA": 0.5225,
+        "REVOGADA EM PARTE": 0.5895953757225434
+      },
+      "val_loss": 2.2639803974412556,
+      "val_accuracy": 0.3956692913385827,
+      "val_macro_f1": 0.35684877479950416,
+      "val_micro_f1": 0.3956692913385827,
+      "val_macro_f1_minority": 0.3433451269503246,
+      "val_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.18333333333333332,
+        "CONFIRMADA": 0.5130718954248366,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.6024096385542169,
+        "CONFIRMA\u00c7\u00c3O": 0.15254237288135594,
+        "IMPROCEDENTE": 0.4625,
+        "N\u00c3O PROVIDO": 0.7441860465116279,
+        "PARCIALMENTE PROCEDENTE": 0.18556701030927836,
+        "PROCEDENTE": 0.23529411764705882,
+        "REVOGADA": 0.28125,
+        "REVOGADA EM PARTE": 0.20833333333333334
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.3151387992244559,
+      "train_accuracy": 0.7002889414236932,
+      "train_macro_f1": 0.7419737612774975,
+      "train_micro_f1": 0.7002889414236932,
+      "train_macro_f1_minority": 0.7594220507782535,
+      "train_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.7745901639344263,
+        "CONFIRMADA": 0.6398852223816356,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.9137055837563451,
+        "CONFIRMA\u00c7\u00c3O": 0.720682302771855,
+        "IMPROCEDENTE": 0.7322929171668667,
+        "N\u00c3O PROVIDO": 0.9268817204301075,
+        "PARCIALMENTE PROCEDENTE": 0.725111441307578,
+        "PROCEDENTE": 0.6605042016806723,
+        "REVOGADA": 0.6008932196508323,
+        "REVOGADA EM PARTE": 0.7251908396946565
+      },
+      "val_loss": 2.4043901717568947,
+      "val_accuracy": 0.40551181102362205,
+      "val_macro_f1": 0.3314242116416394,
+      "val_micro_f1": 0.40551181102362205,
+      "val_macro_f1_minority": 0.27370894893691244,
+      "val_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.1643835616438356,
+        "CONFIRMADA": 0.5403726708074534,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.5588235294117647,
+        "CONFIRMA\u00c7\u00c3O": 0.19718309859154928,
+        "IMPROCEDENTE": 0.4973821989528796,
+        "N\u00c3O PROVIDO": 0.6802721088435374,
+        "PARCIALMENTE PROCEDENTE": 0.17142857142857143,
+        "PROCEDENTE": 0.13675213675213677,
+        "REVOGADA": 0.26126126126126126,
+        "REVOGADA EM PARTE": 0.10638297872340426
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.2085928292240666,
+      "train_accuracy": 0.7869713685316522,
+      "train_macro_f1": 0.8244106638810134,
+      "train_micro_f1": 0.7869713685316522,
+      "train_macro_f1_minority": 0.8438662020129637,
+      "train_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.8719646799116998,
+        "CONFIRMADA": 0.7429979834192247,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.9512195121951219,
+        "CONFIRMA\u00c7\u00c3O": 0.8013856812933026,
+        "IMPROCEDENTE": 0.822066822066822,
+        "N\u00c3O PROVIDO": 0.9463307776560789,
+        "PARCIALMENTE PROCEDENTE": 0.8414634146341463,
+        "PROCEDENTE": 0.7603725656223539,
+        "REVOGADA": 0.6790071518721077,
+        "REVOGADA EM PARTE": 0.8272980501392758
+      },
+      "val_loss": 2.5411837149088776,
+      "val_accuracy": 0.3858267716535433,
+      "val_macro_f1": 0.3272630948922419,
+      "val_micro_f1": 0.3858267716535433,
+      "val_macro_f1_minority": 0.29041228760059346,
+      "val_f1_per_class": {
+        "APELA\u00c7\u00c3O IMPROCEDENTE": 0.19230769230769232,
+        "CONFIRMADA": 0.5064935064935064,
+        "CONFIRMADA A DECIS\u00c3O RECORRIDA": 0.4878048780487805,
+        "CONFIRMA\u00c7\u00c3O": 0.21518987341772153,
+        "IMPROCEDENTE": 0.483695652173913,
+        "N\u00c3O PROVIDO": 0.6861313868613139,
+        "PARCIALMENTE PROCEDENTE": 0.16470588235294117,
+        "PROCEDENTE": 0.192,
+        "REVOGADA": 0.22549019607843138,
+        "REVOGADA EM PARTE": 0.1188118811881188
+      }
+    }
+  ],
+  "test": {
+    "accuracy": 0.41825344714379514,
+    "macro_f1": 0.3921687181274868,
+    "macro_f1_minority": 0.37937360392811864,
+    "micro_f1": 0.41825344714379514
+  },
+  "classification_report": {
+    "APELA\u00c7\u00c3O IMPROCEDENTE": {
+      "precision": 0.23809523809523808,
+      "recall": 0.30864197530864196,
+      "f1-score": 0.26881720430107525,
+      "support": 81.0
+    },
+    "CONFIRMADA": {
+      "precision": 0.5984455958549223,
+      "recall": 0.4520547945205479,
+      "f1-score": 0.5150501672240803,
+      "support": 511.0
+    },
+    "CONFIRMADA A DECIS\u00c3O RECORRIDA": {
+      "precision": 0.5294117647058824,
+      "recall": 0.6545454545454545,
+      "f1-score": 0.5853658536585366,
+      "support": 55.0
+    },
+    "CONFIRMA\u00c7\u00c3O": {
+      "precision": 0.23157894736842105,
+      "recall": 0.3055555555555556,
+      "f1-score": 0.2634730538922156,
+      "support": 72.0
+    },
+    "IMPROCEDENTE": {
+      "precision": 0.6506024096385542,
+      "recall": 0.38848920863309355,
+      "f1-score": 0.4864864864864865,
+      "support": 278.0
+    },
+    "N\u00c3O PROVIDO": {
+      "precision": 0.5752212389380531,
+      "recall": 0.7471264367816092,
+      "f1-score": 0.65,
+      "support": 87.0
+    },
+    "PARCIALMENTE PROCEDENTE": {
+      "precision": 0.20212765957446807,
+      "recall": 0.3114754098360656,
+      "f1-score": 0.24516129032258063,
+      "support": 61.0
+    },
+    "PROCEDENTE": {
+      "precision": 0.30656934306569344,
+      "recall": 0.3888888888888889,
+      "f1-score": 0.34285714285714286,
+      "support": 108.0
+    },
+    "REVOGADA": {
+      "precision": 0.296875,
+      "recall": 0.27403846153846156,
+      "f1-score": 0.285,
+      "support": 208.0
+    },
+    "REVOGADA EM PARTE": {
+      "precision": 0.19161676646706588,
+      "recall": 0.5161290322580645,
+      "f1-score": 0.2794759825327511,
+      "support": 62.0
+    },
+    "accuracy": 0.41825344714379514,
+    "macro avg": {
+      "precision": 0.38205439637082983,
+      "recall": 0.43469452178663837,
+      "f1-score": 0.3921687181274868,
+      "support": 1523.0
+    },
+    "weighted avg": {
+      "precision": 0.4733184363165815,
+      "recall": 0.41825344714379514,
+      "f1-score": 0.4310664314706985,
+      "support": 1523.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      25,
+      17,
+      5,
+      3,
+      3,
+      2,
+      4,
+      7,
+      11,
+      4
+    ],
+    [
+      28,
+      231,
+      14,
+      43,
+      8,
+      14,
+      6,
+      10,
+      84,
+      73
+    ],
+    [
+      2,
+      2,
+      36,
+      1,
+      4,
+      1,
+      2,
+      3,
+      1,
+      3
+    ],
+    [
+      3,
+      26,
+      0,
+      22,
+      1,
+      1,
+      0,
+      0,
+      11,
+      8
+    ],
+    [
+      17,
+      16,
+      4,
+      4,
+      108,
+      15,
+      41,
+      52,
+      14,
+      7
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      4,
+      65,
+      4,
+      5,
+      2,
+      1
+    ],
+    [
+      3,
+      5,
+      0,
+      0,
+      8,
+      8,
+      19,
+      12,
+      2,
+      4
+    ],
+    [
+      9,
+      6,
+      1,
+      1,
+      26,
+      3,
+      11,
+      42,
+      6,
+      3
+    ],
+    [
+      14,
+      68,
+      6,
+      14,
+      3,
+      4,
+      4,
+      6,
+      57,
+      32
+    ],
+    [
+      2,
+      13,
+      2,
+      5,
+      1,
+      0,
+      3,
+      0,
+      4,
+      32
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "APELA\u00c7\u00c3O IMPROCEDENTE",
+    "CONFIRMADA",
+    "CONFIRMADA A DECIS\u00c3O RECORRIDA",
+    "CONFIRMA\u00c7\u00c3O",
+    "IMPROCEDENTE",
+    "N\u00c3O PROVIDO",
+    "PARCIALMENTE PROCEDENTE",
+    "PROCEDENTE",
+    "REVOGADA",
+    "REVOGADA EM PARTE"
+  ]
+}

@@ -1,0 +1,41 @@
+# Environments / secrets
+.venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Data: court decisions contain sensitive information and are very large -- never tracked.
+# Only the small README / label-map / summary files under data/ are kept.
+data/1_raw/*
+!data/1_raw/README.md
+data/1_raw_plus/
+data/2_processed/*
+!data/2_processed/label2id_*.json
+!data/2_processed/splits_*_summary.json
+data/eda_analysis/
+data/interim/
+data/models/
+
+# Model artifacts and large outputs (weights, checkpoints, embeddings)
+outputs/**/checkpoint/
+outputs/**/checkpoints/
+outputs/**/best_model/
+*.npy
+*.pt
+*.pth
+*.safetensors
+*.joblib
+*.bin
+outputs/**/*.html
+
+# Reference papers and private/generated documents
+docs/papers/
+reports/
+/*.docx
+/*.pdf
+
+# Generated GPU-transfer bundle
+gpu/

@@ -1,0 +1,16 @@
+                                precision    recall  f1-score   support
+
+         APELAÇÃO IMPROCEDENTE       0.23      0.22      0.23        81
+                    CONFIRMADA       0.53      0.55      0.54       511
+CONFIRMADA A DECISÃO RECORRIDA       0.47      0.35      0.40        55
+                   CONFIRMAÇÃO       0.25      0.22      0.24        72
+                  IMPROCEDENTE       0.54      0.47      0.50       278
+                   NÃO PROVIDO       0.50      0.85      0.63        87
+       PARCIALMENTE PROCEDENTE       0.27      0.20      0.23        61
+                    PROCEDENTE       0.26      0.19      0.22       108
+                      REVOGADA       0.29      0.34      0.31       208
+             REVOGADA EM PARTE       0.21      0.23      0.22        62
+
+                      accuracy                           0.43      1523
+                     macro avg       0.36      0.36      0.35      1523
+                  weighted avg       0.43      0.43      0.42      1523

@@ -1,0 +1,25 @@
+{
+  "training_regime": "frozen_encoder_knn_probe",
+  "model_hf_id": "PORTULAN/serafim-900m-portuguese-pt-sentence-encoder",
+  "model_revision": "8b6aac1431bf56dd4b8f6a27a98ea78d3a7c5d31",
+  "seed": 42,
+  "precision": "fp32",
+  "attn_implementation": "eager",
+  "device": "cuda",
+  "encoder_frozen": true,
+  "pooling": "mean_pooling_last_hidden_state",
+  "classifier": "sklearn.neighbors.KNeighborsClassifier",
+  "n_neighbors_grid": [
+    3,
+    5,
+    7,
+    9,
+    11,
+    15,
+    21,
+    31
+  ],
+  "weights": "distance",
+  "metric": "cosine",
+  "best_n_neighbors": 5
+}

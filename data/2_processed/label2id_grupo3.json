@@ -1,0 +1,38 @@
+{
+  "labels": [
+    "APELAÇÃO IMPROCEDENTE",
+    "CONFIRMADA",
+    "CONFIRMADA A DECISÃO RECORRIDA",
+    "CONFIRMAÇÃO",
+    "IMPROCEDENTE",
+    "NÃO PROVIDO",
+    "PARCIALMENTE PROCEDENTE",
+    "PROCEDENTE",
+    "REVOGADA",
+    "REVOGADA EM PARTE"
+  ],
+  "label2id": {
+    "APELAÇÃO IMPROCEDENTE": 0,
+    "CONFIRMADA": 1,
+    "CONFIRMADA A DECISÃO RECORRIDA": 2,
+    "CONFIRMAÇÃO": 3,
+    "IMPROCEDENTE": 4,
+    "NÃO PROVIDO": 5,
+    "PARCIALMENTE PROCEDENTE": 6,
+    "PROCEDENTE": 7,
+    "REVOGADA": 8,
+    "REVOGADA EM PARTE": 9
+  },
+  "id2label": {
+    "0": "APELAÇÃO IMPROCEDENTE",
+    "1": "CONFIRMADA",
+    "2": "CONFIRMADA A DECISÃO RECORRIDA",
+    "3": "CONFIRMAÇÃO",
+    "4": "IMPROCEDENTE",
+    "5": "NÃO PROVIDO",
+    "6": "PARCIALMENTE PROCEDENTE",
+    "7": "PROCEDENTE",
+    "8": "REVOGADA",
+    "9": "REVOGADA EM PARTE"
+  }
+}
